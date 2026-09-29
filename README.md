@@ -231,7 +231,7 @@ folder containing the images (the split images for each channel).
 A single `quantification.csv` file (cf fig.2).
 
 <figure data-latex-placement="h">
-<img src="./table_quantif_exemple.png" style="width:15cm" />
+<img src="./outputs/table_quantif_exemple.png" style="width:15cm" />
 <figcaption><strong>Fig.2</strong> Exemple of a quantification.csv
 output file for three markers: OLIG3, PAX3, SOX10.</figcaption>
 </figure>
@@ -245,7 +245,7 @@ values for each marker. Then generate the density plots and save them in
 the output folder: `Plot_Distribution`.
 
 <figure data-latex-placement="h">
-<img src="./Intensity_distribution_PAX3.png" style="width:15cm" />
+<img src="./outputs/Intensity_distribution_PAX3.png" style="width:15cm" />
 <figcaption><strong>Fig.3</strong> Mean PAX3 nuclear intensity density
 plot.</figcaption>
 </figure>
@@ -321,7 +321,7 @@ each marker and the classification for each nucleus, and save a
 for each combination of markers.
 
 <figure data-latex-placement="h">
-<img src="./table_quantif_summary_exemple.png" style="width:15cm" />
+<img src="./outputs/table_quantif_summary_exemple.png" style="width:15cm" />
 <figcaption><strong>Fig.4</strong> Exemple of a
 quantification_summary.csv output file for three markers: OLIG3, PAX3,
 SOX10. (Only a part of the table is represented).</figcaption>
@@ -339,7 +339,7 @@ marker. Then, it generates the color-coded classification image for each
 marker and saves them in the output folder: `Control_Classification`.
 
 <figure data-latex-placement="h">
-<img src="./classification.png" style="width:12cm" />
+<img src="./outputs/classification.png" style="width:12cm" />
 <figcaption><strong>Fig.5</strong> Immunolabelling and classification
 images for three markers: PAX3, OLIG3 and SOX10.</figcaption>
 </figure>
@@ -354,7 +354,7 @@ associated thresholds automatically. Then, it generates the density
 plots and saves them in the output folder: `Plot_Thresholds`.
 
 <figure data-latex-placement="h">
-<img src="./Threshold_PAX3.png" style="width:15cm" />
+<img src="./outputs/Threshold_PAX3.png" style="width:15cm" />
 <figcaption><strong>Fig.6</strong> Mean PAX3 nuclear intensity density
 plot with the selected threshold separeting the negative (red) from
 positive (green) nucleus.</figcaption>
@@ -394,7 +394,7 @@ representing one image.
 High-resolution PNG graph in the same folder as the input CSV.
 
 <figure data-latex-placement="h">
-<img src="./quantification_summary_PAX3_par_clone.png"
+<img src="./outputs/quantification_summary_PAX3_par_clone.png"
 style="width:12cm" />
 <figcaption><strong>Fig.7</strong> Proportion of PAX3+ cells per clone.
 Each dot is one image</figcaption>

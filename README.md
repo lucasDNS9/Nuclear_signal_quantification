@@ -189,7 +189,7 @@ containing the Cellpose segmentation masks, the script applies the LUT
 colored masks as jpeg images in a `Control_Segmentation` folder.
 
 <figure data-latex-placement="h">
-<img src="./segmentation.png" style="width:15cm" />
+<img src="./outputs/segmentation.png" style="width:15cm" />
 <figcaption><strong>Fig.1</strong> Exemple of Cellpose segmentation and
 mask coloration from DAPI signal of a day 9 spinal
 organoid.</figcaption>

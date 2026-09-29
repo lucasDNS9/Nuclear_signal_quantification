@@ -28,7 +28,7 @@ The pipeline consists of the following main steps:
 
 The general structure of the project is as follows:
 
-    Quantification/
+    Nuclear_signal_quantification/
     |
     |-- README.pdf
     |

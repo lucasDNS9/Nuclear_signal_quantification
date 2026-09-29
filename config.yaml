@@ -1,0 +1,11 @@
+# ============================================================
+#Configuration des paramètres de la pipeline
+# ============================================================
+FiJi:
+  FiJi_path: "C:/Users/Admin/.imagej/Fiji/fiji.exe"
+
+cellpose:
+  model: "cpsam_v2"      # model cellpose utilisé
+  diameter: 120          # diamètre moyen en pixels des noyaux
+  flow_threshold: 0.4    # seuil du flow
+  cellprob_threshold: 1  # seuil de probabilité cellulaire
